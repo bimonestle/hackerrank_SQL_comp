@@ -4,7 +4,7 @@
 -- Your result cannot contain duplicates.
 
 SELECT
-    CITY
+    DISTINCT CITY
 FROM STATION
 WHERE
     (CITY LIKE 'a%' OR
